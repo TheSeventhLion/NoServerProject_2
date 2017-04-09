@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url("./fonts/Brandon_thin.otf"); }
+
+body {
+  background-color: black;
+  font-family: "BrandonGrotesque";
+  color: white;
+  font-size: 60px; }
+
+.navBar > ul {
+  display: flex;
+  justify-content: center; }
+  .navBar > ul > li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px; }
+
+.logo {
+  display: flex;
+  justify-content: center; }
+
+.logoImg {
+  background: url(" ./images/logo/logo.png");
+  background-size: contain;
+  height: 500px;
+  width: 100px; }
+
+.navBar ul li ul {
+  position: absolute;
+  top: 20px;
+  padding: 0;
+  top: 60px;
+  list-style-type: none; }
+
+.dropdown:hover .navBar ul li ul {
+  display: none; }
+
+.navBar ul li ul li {
+  padding: 10px 0; }

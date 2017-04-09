@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('./fonts/Brandon_thin.otf');
+}
+
+
+body{
+    background-color: black;
+    font-family: "BrandonGrotesque";
+    color:white;
+    font-size: 60px;
+
+}
+
+.navBar > ul {
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/image4.jpg");
+    
+    > li {
+        list-style: none;
+        justify-content: center;
+        padding: 25px;
+        font-size: 20px;
+    }
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+//insdie the drowndown menu make the background color grey
+
+
+// .inside-drop .items{
+//     border-color: red
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .ShopDrop {
+//     position: relative;
+//     display: inline-block;
+
+// } 
+
+// .navBar ul li ul {
+//     position: absolute;
+//     top: 20px;
+//     padding: 0;
+//     top: 60px;
+//     list-style-type: none;
+//     // display: none;
+// }
+
+// .navBar ul li:hover ul {
+//         display: none;
+
+// }
+
+// .navBar ul li ul li {
+//     padding: 10px 0;
+
+// }
+
+
+
+
+
+
+
+
