@@ -5,38 +5,38 @@
 body {
   background-color: black;
   font-family: "BrandonGrotesque";
-  color: white;
-  font-size: 60px; }
+  color: white; }
+
+.wrapper {
+  background-image: url("../images/1Suiting/image4.jpg"); }
+
+.process-header {
+  background-image: url("../images/3PROCESS/image6.JPG"); }
 
 .navBar > ul {
   display: flex;
   justify-content: center; }
   .navBar > ul > li {
     list-style: none;
-    display: flex;
     justify-content: center;
     padding: 25px;
     font-size: 20px; }
 
 .logo {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%; }
 
-.logoImg {
-  background: url(" ./images/logo/logo.png");
-  background-size: contain;
-  height: 500px;
-  width: 100px; }
+.cust {
+  list-style: none; }
 
-.navBar ul li ul {
-  position: absolute;
-  top: 20px;
-  padding: 0;
-  top: 60px;
-  list-style-type: none; }
+.comp {
+  list-style: none; }
 
-.dropdown:hover .navBar ul li ul {
-  display: none; }
+.social {
+  list-style: none; }
 
-.navBar ul li ul li {
-  padding: 10px 0; }
+.social {
+  list-style: none; }

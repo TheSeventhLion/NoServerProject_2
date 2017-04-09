@@ -8,14 +8,26 @@ body{
     background-color: black;
     font-family: "BrandonGrotesque";
     color:white;
-    font-size: 60px;
+}
+
+.wrapper{
+    background-image: url("../images/1Suiting/image4.jpg");
 
 }
+
+
+
+.process-header{
+    background-image: url("../images/3PROCESS/image6.JPG");
+
+}
+
 
 .navBar > ul {
     display: flex;
     justify-content: center;
-    background-image: url("./images/image4.jpg");
+
+
     
     > li {
         list-style: none;
@@ -26,62 +38,40 @@ body{
 
 }
 
+// This stupid dropdown will not co-operate!!!
+
+// .dropdown {
+//     list-style: none;
+//     border: 1px solid transparent;
+// }
+
 .logo {
     display: flex;
     justify-content: center;
-
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+// Change logo size 
 }
 
 
-
-
 //inside the drowndown menu make the background color grey
-
 // .inside-drop .items{
 //     border-color: red
 //     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .ShopDrop {
-//     position: relative;
-//     display: inline-block;
-
-// } 
-
-// .navBar ul li ul {
-//     position: absolute;
-//     top: 20px;
-//     padding: 0;
-//     top: 60px;
-//     list-style-type: none;
-//     // display: none;
-// }
-
-// .navBar ul li:hover ul {
-//         display: none;
-
-// }
-
-// .navBar ul li ul li {
-//     padding: 10px 0;
-
-// }
-
-
+.cust{
+    list-style: none;
+}
+.comp{
+    list-style: none;
+}
+.social{
+    list-style: none;
+}
+.social{
+    list-style: none;
+}
 
 
 
