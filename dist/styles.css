@@ -22,6 +22,9 @@ body {
     padding: 25px;
     font-size: 20px; }
 
+li {
+  list-style: none; }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -29,14 +32,42 @@ body {
   max-width: 100%;
   max-height: 100%; }
 
-.cust {
-  list-style: none; }
+.main-footer {
+  width: 90%;
+  margin: 0 auto; }
 
-.comp {
-  list-style: none; }
+.footer-title {
+  background: turquoise; }
+
+.footer-linklist {
+  float: left;
+  width: calc(100% / 3);
+  background: purple;
+  height: 140px; }
+
+.mailing-list {
+  float: left;
+  width: calc(100% / 3);
+  background: blue; }
 
 .social {
-  list-style: none; }
+  background: yellowgreen;
+  margin: 0 auto;
+  width: 100px; }
+  .social li {
+    float: left;
+    background: white;
+    padding: 0 5% 0 5%;
+    margin: 10%; }
 
-.social {
-  list-style: none; }
+.bottom-footer {
+  clear: left;
+  background: red;
+  text-align: center; }
+
+.cust .comp {
+  padding: 0;
+  margin: 0; }
+  .cust .comp li {
+    padding: 0;
+    margin: 0; }

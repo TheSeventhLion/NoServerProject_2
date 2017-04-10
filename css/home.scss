@@ -37,6 +37,9 @@ body{
     }
 
 }
+li{
+    list-style: none;
+}
 
 // This stupid dropdown will not co-operate!!!
 
@@ -59,18 +62,65 @@ body{
 // .inside-drop .items{
 //     border-color: red
 //     }
+.main-footer{
+    width: 90%;
+    margin:0 auto;
 
-.cust{
-    list-style: none;
 }
-.comp{
-    list-style: none;
+.footer-title {
+    background:turquoise;
 }
-.social{
-    list-style: none;
+
+.footer-linklist {
+    float: left;
+    width: calc(100% / 3);
+    background: purple;
+
+    height: 140px;
 }
-.social{
-    list-style: none;
+
+.mailing-list {
+    float: left;
+    width: calc(100% / 3);
+    background: blue;
+
+}
+
+.social {
+    // float: left;
+    // width: calc(100% / 5);
+    background: yellowgreen;
+    margin: 0 auto;
+    width: 100px;
+
+    li{
+        float:left;
+        background: white;
+        padding: 0 5% 0 5%;
+        margin: 10%;
+    }
+}
+
+.bottom-footer{
+    clear:left;
+    background: red;
+    text-align: center;
+}
+
+.cust .comp {
+    padding: 0;
+    margin:0;
+
+    li{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.twitter{
+    background-size: 8px 8px;
+    background-repeat: no-repeat;
+    
 }
 
 
