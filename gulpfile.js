@@ -6,8 +6,8 @@ const sourcemap = require('gulp-sourcemaps');
 
 
 var paths = {
-  jsSource: ['./js/**/*.js'],
-  scssSource: ['./css/**/*.scss']
+  jsSource: ['js/**/*.js'],
+  scssSource: ['css/**/*.scss']
 }
 
 gulp.task('js', function() {

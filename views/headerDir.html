@@ -11,15 +11,15 @@
 <!--nav-bar tabs need to be styled white-->
 <!--SHOP dropdown isnt right when hover-->
 
-    <ul class="dropdown">
+    <ul class="nav-menu">
         <li><a ui-sref="suiting">SUITING</a></li>
         <li><a ui-sref="shirting">SHIRTING</a></li>
         <li><a ui-sref="process">PROCESS</a></li>
 
     <li class="droplist" ng-mouseover="dropdown = true" ng-mouseleave="dropdown=false">SHOP
 
+<!--<div class= "shopdropbox">-->
     <ul class="dropdown" ng-show="dropdown">
-
             <li>Shirts</li>
             <li>Classic Ties</li>
             <li>Knit Ties</li>
@@ -29,6 +29,7 @@
             <li>Socks</li>
     </ul>
     </li>
+<!--</div>-->
 
         <li><a ui-sref="lookbook">LOOKBOOK</a></li>
         <li><a ui-sref="press">PRESS</a></li>

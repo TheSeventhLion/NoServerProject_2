@@ -55,6 +55,9 @@ angular.module('mueser').controller('homeCtrl', function (mainService, $scope) {
 "use strict";
 'use strict';
 
+angular.module('mueser').service('mainService', function ($http) {});
+'use strict';
+
 angular.module('mueser').directive('footerDir', function () {
 
     return {
@@ -73,7 +76,4 @@ angular.module('mueser').directive('headerDir', function () {
 
     };
 });
-'use strict';
-
-angular.module('mueser').service('mainService', function ($http) {});
 //# sourceMappingURL=bundle.js.map

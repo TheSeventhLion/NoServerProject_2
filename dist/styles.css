@@ -1,3 +1,9 @@
+
+
+
+* {
+  list-style: none; }
+
 @font-face {
   font-family: 'BrandonGrotesque';
   src: url("./fonts/Brandon_thin.otf"); }
@@ -5,65 +11,97 @@
 body {
   background-color: black;
   font-family: "BrandonGrotesque";
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
 .wrapper {
   background-image: url("../images/1Suiting/image4.jpg"); }
 
-.process-header {
-  background-image: url("../images/3PROCESS/image6.JPG"); }
-
-.navBar > ul {
+.logo {
   display: flex;
-  justify-content: center; }
-  .navBar > ul > li {
-    list-style: none;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+.dropdown {
+  list-style: none;
+  border: 1px solid white;
+  position: absolute;
+  z-index: 99;
+  background: black; }
+
+li:hover {
+  color: silver; }
+  li:hover a a:hover {
+    text-decoration: none;
+    color: white; }
+  li:hover .navBar {
+    color: white; }
+    li:hover .navBar a {
+      text-decoration: none; }
+    li:hover .navBar ul {
+      display: flex;
+      justify-content: center; }
+    li:hover .navBar li {
+      padding: 30px; }
+  li:hover .nav-menu {
+    font-size: 30px;
+    display: inline-block;
+    justify-content: center; }
+  li:hover li {
     justify-content: center;
     padding: 25px;
     font-size: 20px; }
 
-li {
+li, ul, a {
   list-style: none; }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: 100%; }
+.dropdown:hover li {
+  justify-content: center; }
 
 .main-footer {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
-
-.footer-title {
-  background: turquoise; }
 
 .footer-linklist {
   float: left;
   width: calc(100% / 3);
-  background: purple;
   height: 140px; }
 
 .mailing-list {
-  float: left;
-  width: calc(100% / 3);
-  background: blue; }
+  padding-left: 100px; }
 
-.social {
-  background: yellowgreen;
-  margin: 0 auto;
-  width: 100px; }
-  .social li {
-    float: left;
-    background: white;
-    padding: 0 5% 0 5%;
-    margin: 10%; }
+.newsletter {
+  float: right; }
+
+.main-footer {
+  max-width: 1260px;
+  text-align: center; }
 
 .bottom-footer {
   clear: left;
-  background: red;
   text-align: center; }
+
+.submit {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: "BrandonGrotesque";
+  margin: 10px; }
+
+.submit:hover {
+  background-color: white;
+  color: black; }
+
+.newsletter {
+  margin: auto;
+  width: auto; }
+
+.email {
+  border: none;
+  height: 30px;
+  align-items: center;
+  background: black; }
 
 .cust .comp {
   padding: 0;
@@ -71,3 +109,56 @@ li {
   .cust .comp li {
     padding: 0;
     margin: 0; }
+
+.social {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px; }
+  .social li {
+    margin: 0 6px; }
+
+.twitter, .facebook, .instagram, .tumblr {
+  width: 35px;
+  height: 35px; }
+
+
+
+
+
+
+.suiting-view .suiting-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  position: relative; }
+
+.suiting-view .img-box {
+  align-items: center; }
+
+.suiting-view .img-card {
+  width: 30%;
+  height: 1000px;
+  display: inline-block;
+  background: #444444; }
+  .suiting-view .img-card .img-sizer {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    background: url("../images/1SUITING/image2.jpg");
+    background-position: center;
+    background-size: cover; }
+    .suiting-view .img-card .img-sizer img {
+      width: 100%; }
+  .suiting-view .img-card .imgblurb {
+    height: 30%; }
+  .suiting-view .img-card .blurb-title {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; }
+  .suiting-view .img-card .imgblurb {
+    font-size: 16px;
+    text-align: center; }
